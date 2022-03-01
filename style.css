@@ -1,0 +1,623 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://img2.goodfon.com/wallpaper/nbig/a/ec/gory-sneg-noch-zvezdy-1096.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+.logo {
+    display: inline-block;
+}
+.sub_menu {
+    text-align: center;
+    padding-top:10px;
+    cursor: pointer;
+}
+.sub_menu span {
+    padding: 20px;
+}
+.sub_menu :nth-child(1) {
+    padding-right: 400px;
+    font-size: 20pt;
+}
+.title {
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+.sub_title {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.pastki {
+    padding-top: 100px;
+}
+.pastki button {
+    margin-left: 600px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+#stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    animation: animStar 50s linear infinite;
+    box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
+    1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
+    36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
+    1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
+    1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
+    164px 527px #fff, 8px 646px #fff, 1150px 1126px #fff, 665px 1357px #fff,
+    1556px 1982px #fff, 1260px 1961px #fff, 1675px 1741px #fff,
+    1843px 1514px #fff, 718px 1628px #fff, 242px 1343px #fff, 1497px 1880px #fff,
+    1364px 230px #fff, 1739px 1302px #fff, 636px 959px #fff, 304px 686px #fff,
+    614px 751px #fff, 1935px 816px #fff, 1428px 60px #fff, 355px 335px #fff,
+    
+    955px 1220px #fff, 1137px 1075px #fff, 312px 1293px #fff, 986px 1762px #fff,
+    1103px 1238px #fff, 428px 1993px #fff, 355px 570px #fff, 977px 1836px #fff,
+    1395px 1092px #fff, 276px 913px #fff, 1743px 656px #fff, 773px 502px #fff,
+    1686px 1322px #fff, 1516px 1945px #fff, 1334px 501px #fff, 266px 156px #fff,
+    455px 655px #fff, 798px 72px #fff, 1059px 1259px #fff, 1402px 1687px #fff,
+    236px 1329px #fff, 1455px 786px #fff, 146px 1228px #fff, 1851px 823px #fff,
+    1062px 100px #fff, 1220px 953px #fff, 20px 1826px #fff, 36px 1063px #fff,
+    1525px 338px #fff, 790px 1521px #fff, 741px 1099px #fff, 288px 1489px #fff,
+   
+    1323px 680px #fff, 1284px 680px #fff, 238px 1967px #fff, 911px 174px #fff,
+    1111px 521px #fff, 1150px 85px #fff, 794px 502px #fff, 484px 1856px #fff,
+    1809px 368px #fff, 112px 953px #fff, 590px 1009px #fff, 1655px 311px #fff,
+    100px 1026px #fff, 1803px 352px #fff, 865px 306px #fff, 1077px 1019px #fff,
+    1335px 872px #fff, 1647px 1298px #fff, 1233px 1387px #fff, 698px 1036px #fff,
+    659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
+    696px 1654px #fff, 1144px 60px #fff;
+}
+
+#stars:after {
+    content: '';
+    position: absolute;
+    top: 2000px;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
+    1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
+    36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
+    1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
+    1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
+    164px 527px #fff, 8px 646px #fff, 1150px 1126px #fff, 665px 1357px #fff,
+   
+    955px 1220px #fff, 1137px 1075px #fff, 312px 1293px #fff, 986px 1762px #fff,
+    1103px 1238px #fff, 428px 1993px #fff, 355px 570px #fff, 977px 1836px #fff,
+    1395px 1092px #fff, 276px 913px #fff, 1743px 656px #fff, 773px 502px #fff,
+    1686px 1322px #fff, 1516px 1945px #fff, 1334px 501px #fff, 266px 156px #fff,
+    455px 655px #fff, 798px 72px #fff, 1059px 1259px #fff, 1402px 1687px #fff,
+    236px 1329px #fff, 1455px 786px #fff, 146px 1228px #fff, 1851px 823px #fff,
+    1062px 100px #fff, 1220px 953px #fff, 20px 1826px #fff, 36px 1063px #fff,
+    1525px 338px #fff, 790px 1521px #fff, 741px 1099px #fff, 288px 1489px #fff,
+    700px 1060px #fff, 390px 1071px #fff, 411px 1036px #fff, 1853px 1072px #fff,
+    1446px 1085px #fff, 1164px 874px #fff, 924px 925px #fff, 291px 271px #fff,
+    1257px 1964px #fff, 1580px 1352px #fff, 1507px 1216px #fff, 211px 956px #fff,
+    1323px 680px #fff, 1284px 680px #fff, 238px 1967px #fff, 911px 174px #fff,
+    1111px 521px #fff, 1150px 85px #fff, 794px 502px #fff, 484px 1856px #fff,
+    1809px 368px #fff, 112px 953px #fff, 590px 1009px #fff, 1655px 311px #fff,
+    100px 1026px #fff, 1803px 352px #fff, 865px 306px #fff, 1077px 1019px #fff,
+    1335px 872px #fff, 1647px 1298px #fff, 1233px 1387px #fff, 698px 1036px #fff,
+    659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
+    696px 1654px #fff, 1144px 60px #fff
+    100px 1026px #fff, 1803px 352px #fff, 865px 306px #fff, 1077px 1019px #fff,
+    1335px 872px #fff, 1647px 1298px #fff, 1233px 1387px #fff, 698px 1036px #fff,
+    659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
+    696px 1654px #fff, 1144px 60px #fff;
+}
+
+#stars2 {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    animation: animStar 100s linear infinite;
+    box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
+    878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
+    121px 979px #fff, 1044px 1069px #fff, 463px 381px #fff, 423px 112px #fff,
+    523px 1179px #fff, 779px 654px #fff, 1398px 694px #fff, 1085px 1464px #fff,
+    1599px 1869px #fff, 801px 1882px #fff, 779px 1231px #fff, 552px 932px #fff,
+    1057px 1196px #fff, 282px 1280px #fff, 496px 1986px #fff, 1833px 1120px #fff,
+    1802px 1293px #fff, 6px 1696px #fff, 412px 1902px #fff, 605px 438px #fff,
+    24px 1212px #fff, 234px 1320px #fff, 544px 344px #fff, 1107px 170px #fff,
+    1603px 196px #fff, 905px 648px #fff, 68px 1458px #fff, 649px 1969px #fff,
+
+    161px 1012px #fff, 1308px 588px #fff, 1789px 582px #fff, 721px 1910px #fff,
+    318px 218px #fff, 607px 319px #fff, 495px 535px #fff, 1552px 1575px #fff,
+    1562px 67px #fff, 403px 926px #fff, 1096px 1800px #fff, 1814px 1709px #fff,
+    1882px 1831px #fff, 533px 46px #fff, 823px 969px #fff, 530px 165px #fff,
+    1030px 352px #fff, 1681px 313px #fff, 338px 115px #fff, 1607px 211px #fff,
+    1718px 1184px #fff, 1589px 659px #fff, 278px 355px #fff, 464px 1464px #fff,
+    1165px 277px #fff, 950px 694px #fff, 1746px 293px #fff, 793px 911px #fff,
+    528px 773px #fff, 1883px 1694px #fff, 748px 182px #fff, 1924px 1531px #fff,
+    100px 636px #fff, 1473px 1445px #fff, 1264px 1244px #fff, 850px 1377px #fff,
+    987px 1976px #fff, 933px 1761px #fff, 922px 1270px #fff, 500px 396px #fff,
+    1324px 8px #fff, 1967px 1814px #fff, 1072px 1401px #fff, 961px 37px #fff,
+    156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
+    986px 1529px #fff, 1667px 1137px #fff;
+    
+}
+
+#stars2:after {
+    content: '';
+    position: absolute;
+    top: 2000px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
+    878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
+    121px 979px #fff, 1044px 1069px #fff, 463px 381px #fff, 423px 112px #fff,
+    523px 1179px #fff, 779px 654px #fff, 1398px 694px #fff, 1085px 1464px #fff,
+    1599px 1869px #fff, 801px 1882px #fff, 779px 1231px #fff, 552px 932px #fff,
+    1057px 1196px #fff, 282px 1280px #fff, 496px 1986px #fff, 1833px 1120px #fff,
+    1802px 1293px #fff, 6px 1696px #fff, 412px 1902px #fff, 605px 438px #fff,
+    24px 1212px #fff, 234px 1320px #fff, 544px 344px #fff, 1107px 170px #fff,
+    1603px 196px #fff, 905px 648px #fff, 68px 1458px #fff, 649px 1969px #fff,
+    744px 675px #fff, 1127px 478px #fff, 714px 1814px #fff, 1486px 526px #fff,
+    270px 1636px #fff, 1931px 149px #fff, 1807px 378px #fff, 8px 390px #fff,
+   
+    1490px 220px #fff, 357px 1885px #fff, 363px 363px #fff, 1896px 1256px #fff,
+    1979px 1050px #fff, 947px 1342px #fff, 1754px 242px #fff, 514px 974px #fff,
+    65px 1477px #fff, 1840px 547px #fff, 950px 695px #fff, 459px 1150px #fff,
+   
+ 
+    1165px 277px #fff, 950px 694px #fff, 1746px 293px #fff, 793px 911px #fff,
+    528px 773px #fff, 1883px 1694px #fff, 748px 182px #fff, 1924px 1531px #fff,
+    100px 636px #fff, 1473px 1445px #fff, 1264px 1244px #fff, 850px 1377px #fff,
+    987px 1976px #fff, 933px 1761px #fff, 922px 1270px #fff, 500px 396px #fff,
+    1324px 8px #fff, 1967px 1814px #fff, 1072px 1401px #fff, 961px 37px #fff,
+    156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
+    986px 1529px #fff, 1667px 1137px #fff;
+}
+
+#stars3 {
+    width: 0.5px;
+    height: 0.5px;
+    background: transparent;
+    animation: animStar 150s linear infinte;
+    box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
+    948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,
+    1268px 1635px #fff, 1820px 598px #fff, 642px 1900px #fff, 296px 57px #fff,
+    921px 1620px #fff, 476px 1858px #fff, 658px 613px #fff, 1171px 1363px #fff,
+    1419px 283px #fff, 1037px 731px #fff, 503px 663px #fff, 1562px 463px #fff,
+    383px 1197px #fff, 1171px 1233px #fff, 876px 1768px #fff, 856px 1615px #fff,
+    1375px 1924px #fff, 1725px 918px #fff, 952px 119px #fff, 768px 1212px #fff,
+    992px 1462px #fff, 1929px 717px #fff, 1947px 755px #fff, 1818px 1123px #fff,
+    1896px 1672px #fff, 460px 198px #fff, 256px 271px #fff, 752px 544px #fff,
+    1222px 1859px #fff, 1851px 443px #fff, 313px 1858px #fff, 709px 446px #fff,
+    1546px 697px #fff, 674px 1155px #fff, 1112px 130px #fff, 355px 1790px #fff,
+    1496px 974px #fff, 1696px 480px #fff, 1316px 1265px #fff, 1645px 1063px #fff,
+    1182px 237px #fff, 427px 1582px #fff, 859px 253px #fff, 458px 939px #fff,
+    1517px 1644px #fff, 1943px 60px #fff, 212px 1650px #fff, 966px 1786px #fff,
+    473px 712px #fff, 130px 76px #fff, 1417px 1186px #fff, 909px 1580px #fff,
+    1913px 762px #fff, 204px 1143px #fff, 1998px 1057px #fff, 1468px 1301px #fff,
+    144px 1676px #fff, 21px 1601px #fff, 382px 1362px #fff, 912px 753px #fff,
+    1488px 1405px #fff, 802px 156px #fff, 174px 550px #fff, 338px 1366px #fff,
+    1197px 774px #fff, 602px 486px #fff, 682px 1877px #fff, 348px 1503px #fff,
+    407px 1139px #fff, 950px 1400px #fff, 922px 1139px #fff, 1697px 293px #fff,
+    1238px 1281px #fff, 1038px 1197px #fff, 376px 1889px #fff,
+    1255px 1680px #fff, 1008px 1316px #fff, 1538px 1447px #fff,
+    1186px 874px #fff, 1967px 640px #fff, 1341px 19px #fff, 29px 1732px #fff,
+    16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
+    494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
+    498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+#stars3:after {
+    content: '';
+    position: absolute;
+    top: 2000px;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
+    948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,
+    1268px 1635px #fff, 1820px 598px #fff, 642px 1900px #fff, 296px 57px #fff,
+    921px 1620px #fff, 476px 1858px #fff, 658px 613px #fff, 1171px 1363px #fff,
+    1419px 283px #fff, 1037px 731px #fff, 503px 663px #fff, 1562px 463px #fff,
+    383px 1197px #fff, 1171px 1233px #fff, 876px 1768px #fff, 856px 1615px #fff,
+    1375px 1924px #fff, 1725px 918px #fff, 952px 119px #fff, 768px 1212px #fff,
+    992px 1462px #fff, 1929px 717px #fff, 1947px 755px #fff, 1818px 1123px #fff,
+    1896px 1672px #fff, 460px 198px #fff, 256px 271px #fff, 752px 544px #fff,
+    1222px 1859px #fff, 1851px 443px #fff, 313px 1858px #fff, 709px 446px #fff,
+    1546px 697px #fff, 674px 1155px #fff, 1112px 130px #fff, 355px 1790px #fff,
+    1496px 974px #fff, 1696px 480px #fff, 1316px 1265px #fff, 1645px 1063px #fff,
+    1182px 237px #fff, 427px 1582px #fff, 859px 253px #fff, 458px 939px #fff,
+    1517px 1644px #fff, 1943px 60px #fff, 212px 1650px #fff, 966px 1786px #fff,
+    473px 712px #fff, 130px 76px #fff, 1417px 1186px #fff, 909px 1580px #fff,
+    1913px 762px #fff, 204px 1143px #fff, 1998px 1057px #fff, 1468px 1301px #fff,
+    144px 1676px #fff, 21px 1601px #fff, 382px 1362px #fff, 912px 753px #fff,
+    1488px 1405px #fff, 802px 156px #fff, 174px 550px #fff, 338px 1366px #fff,
+    1197px 774px #fff, 602px 486px #fff, 682px 1877px #fff, 348px 1503px #fff,
+    407px 1139px #fff, 950px 1400px #fff, 922px 1139px #fff, 1697px 293px #fff,
+    1238px 1281px #fff, 1038px 1197px #fff, 376px 1889px #fff,
+    1255px 1680px #fff, 1008px 1316px #fff, 1538px 1447px #fff,
+    1186px 874px #fff, 1967px 640px #fff, 1341px 19px #fff, 29px 1732px #fff,
+    16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
+    494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
+    498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translate(-2000px);
+       
+    }
+}
+
+
+.blur {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar2 span {
+    display: inline-block;
+    padding-left:90px;
+}
+.navbar2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.post {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.rasm1 {
+    width: 400px;
+    height: 250px;
+    background-image: url(https://images.vfl.ru/ii/1601012299/c48dd496/31737097.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px black;
+}
+.rasm2 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 3px 5px 10px black;
+}
+.rasm1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.rasm2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.rasmlar_div {
+    text-align: center;
+    margin: 70px;
+}
+.adventure {
+    width: 75px;
+    padding: 2px;
+    margin: 20px;
+    color: white;
+    border-radius: 2px;
+    background-color: orangered;
+}
+
+.down1 {
+    color: white;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 10px;
+}
+.once1 {
+    color:white;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 10px;
+}
+.down {
+    padding-top: 70px;
+    color: white;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 10px;
+}
+.once {
+    color:white;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 10px;
+}
+.profil1 {
+    color: white;
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 10px;
+}
+.profil2 {
+    color: white;
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+
+.most_recent {
+    text-align: center;
+}
+
+.container {
+    width: 25%;
+    margin: 50px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 1px 10px gray;
+}
+.rasm {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://wallpapercave.com/wp/wp3084933.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1 {
+    text-align: center;
+    padding-top: 10px;
+}
+.text2 {
+    text-align: center;
+    padding:5px;
+    margin-left: 25px;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+}
+.contact_1 {
+    width: 50px;
+    height:50px;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: url(https://st.depositphotos.com/1011643/4430/i/950/depositphotos_44309759-stock-photo-young-indian-man-outdoors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_1 span {
+    margin: 10px;
+}
+.contact_1 span {
+    padding-lefT: 60px;
+    padding-top: 60px;
+}
+
+.recent_card {
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 140px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/1310524.jpg);
+}
+.recent_card div {
+    text-align: center;
+}
+.recent_card_contact {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+.recent_card1 {
+    width: 25%;
+    display: inline-block;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image1 {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://www.hdwallpapers.net/previews/brooklyn-bridge-by-night-730.jpg);
+}
+.recent_card1 div {
+    text-align: center;
+}
+.recent_card_contact1 {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.recent_card2 {
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image2 {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://cms.accuweather.com/wp-content/uploads/2019/11/joshua-earle-Dwheufds6kQ-unsplash.jpg?w=1024);
+}
+.recent_card2 div {
+    text-align: center;
+}
+.recent_card_contact2 {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+.recent_card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.recent_card1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.recent_card2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.recent_card3 {
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 140px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image3 {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://wallup.net/wp-content/uploads/2019/05/10/255086-blue-ocean-bay-arch-sea-beaches.jpg);
+}
+.recent_card3 div {
+    text-align: center;
+}
+.recent_card_contact3 {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+.recent_card4 {
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image4 {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://miro.medium.com/max/1400/1*UfVRYluR4_OgVnQwvEnPtg.jpeg);
+}
+.recent_card4 div {
+    text-align: center;
+}
+.recent_card_contact4 {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+.recent_card5 {
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    margin-top: 35px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+}
+.recent_card_image5 {
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Niagara_Falls-_Horseshoe_Falls_%282%29.jpg/1200px-Niagara_Falls-_Horseshoe_Falls_%282%29.jpg);
+}
+.recent_card5 div {
+    text-align: center;
+}
+.recent_card_contact5 {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ddd;
+    box-shadow: 0px 0px 5px gray;
+}
+.recent_card3:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.recent_card4:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.recent_card5:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    margin-top: 100px;
+}
+.footer .sub_menu {
+    color: white;
+}
